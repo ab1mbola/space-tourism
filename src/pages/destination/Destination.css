@@ -1,11 +1,10 @@
 .destination-hero {
-  background: url(../../assets/destination/background-destination-desktop.svg) fixed no-repeat center
-    center/cover;
+  background: url(../../assets/destination/background-destination-desktop.svg)
+    fixed no-repeat center center/cover;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-  /* margin: 0 auto; */
   position: absolute;
   top: 0;
   height: 100vh;
@@ -24,9 +23,7 @@
 .destination-hero .container {
   margin: 0 auto;
   margin-top: 2rem;
-  /* max-width: 1200px; */
   padding: 0 2rem;
-  /* width: 100%; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -35,7 +32,6 @@
 
 .destination-left {
   width: 50%;
-  /* margin-right: -4rem; */
 }
 
 #moon .container > .destination-left > .left-title > h5 {
@@ -56,23 +52,17 @@
 }
 
 .destination-left > .left-img > img {
-  /* margin-top: 2rem; */
-  /* width: 445px;
-  height: 445px; */
 }
 
 .destination-right {
   width: 50%;
   max-width: 445px;
   margin-top: 7rem;
-  /* margin-left: 4rem; */
 }
 
 .destination-right .destination-nav {
-  /* padding: 1rem 2rem; */
   margin: 2rem 0;
   display: flex;
-  /* width: 285.5px; */
 }
 
 .destination-right .destination-nav a {
@@ -90,7 +80,7 @@
 
 .destination-right .destination-nav a:hover {
   color: var(--violet);
-  border-bottom: 4px solid rgba(255, 255, 255, .4);
+  border-bottom: 4px solid rgba(255, 255, 255, 0.4);
   opacity: 9;
 }
 
@@ -130,14 +120,14 @@
   display: flex;
   align-items: center;
   margin-top: 3rem;
-  /* justify-content: space-between; */
 }
 
 .avg-dist {
   margin-right: 2rem;
 }
 
-.avg-dist p:nth-child(1), .est-time p:nth-child(1) {
+.avg-dist p:nth-child(1),
+.est-time p:nth-child(1) {
   text-transform: uppercase;
   font-size: var(--subheading-2);
   color: var(--violet);
@@ -146,7 +136,8 @@
   font-family: var(--barlow-condensed);
 }
 
-.avg-dist p:nth-child(2), .est-time p:nth-child(2) {
+.avg-dist p:nth-child(2),
+.est-time p:nth-child(2) {
   color: var(--cream);
   font-size: var(--subheading-1);
   text-transform: uppercase;
