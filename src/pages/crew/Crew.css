@@ -1,0 +1,12 @@
+.crew-hero {
+  background: url(../../assets/bg-crew.svg) fixed no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  /* margin: 0 auto; */
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  z-index: -1;
+}

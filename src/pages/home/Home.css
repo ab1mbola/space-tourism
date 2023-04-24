@@ -1,0 +1,75 @@
+.home-hero {
+  background: url(../../assets/home/background-home-desktop.svg) no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  z-index: -1;
+}
+
+.home-hero .home-hero-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25rem;
+  margin-top: 10rem;
+  max-width: 1200px;
+  color: var(--cream);
+}
+
+.home-hero-content .home-hero-left {
+  width: 450px;
+}
+
+.home-hero-left > h5 {
+  text-transform: uppercase;
+  font-size: var(--heading-5);
+  font-family: var(--barlow-condensed);
+  letter-spacing: var(--character-spacing-1);
+  font-weight: normal;
+  color: var(--violet);
+  margin-bottom: 1rem;
+}
+
+.home-hero-left > h1 {
+  font-family: var(--bellefair);
+  text-transform: uppercase;
+  font-size: var(--heading-1);
+  color: var(--cream);
+  font-weight: normal;
+  margin-bottom: 1rem;
+}
+
+.home-hero-left > p {
+  color: var(--violet);
+  line-height: 32px;
+  font-size: 18px;
+  font-family: var(--barlow);
+  color: var(--violet);
+}
+
+.button-wrapper > a {
+  text-decoration: none;
+}
+
+.button-wrapper > a > button {
+  border: 0;
+  border-radius: 50%;
+  font-family: var(--bellefair);
+  font-size: var(--heading-4);
+  height: 274px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 37px;
+  transition: box-shadow 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  width: 274px;
+}
+
+.button-wrapper button:hover {
+  box-shadow: 0 0 0 88px hsla(0, 0%, 100%, 0.1);
+  cursor: pointer;
+}
