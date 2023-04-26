@@ -1,19 +1,19 @@
-import './Navbar.css';
+import classes from './navbar.module.css';
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 export default function Navbar() {
   return (
-    <nav className="navbar">
+    <nav className={classes.navbar}>
       <div>
-        <img src="/assets/shared/logo.svg" alt="logo" className="logo" />
+        <img src="/assets/shared/logo.svg" alt="logo" />
       </div>
 
       {/* <hr /> */}
-      <div className="line"></div>
+      <div className={classes.line}></div>
 
-      <div className="nav-items">
-        <ul className="primary-navigation">
+      <div className={classes["nav-items"]}>
+        <ul className={classes["primary-navigation"]}>
           <li>
             <NavLink to="/">
               <span>00</span>Home
