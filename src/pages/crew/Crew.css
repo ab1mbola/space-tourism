@@ -1,5 +1,6 @@
-.crew-hero {
-  background: url(../../assets/crew/background-crew-desktop.svg) fixed no-repeat center center/cover;
+.crew {
+  background: url(../../assets/crew/background-crew-desktop.svg) fixed no-repeat
+    center center/cover;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9,4 +10,128 @@
   top: 0;
   height: 100vh;
   z-index: -1;
+}
+
+.crew > div {
+  /* margin: 10rem 0; */
+  margin-top: 11.4rem;
+}
+
+.crew-header {
+  /* margin-top: 40rem; */
+  /* margin-bottom: -10rem; */
+  display: block;
+}
+
+.crew-info-wrapper .crew-header > h5 {
+  font-size: var(--heading-5);
+  color: var(--cream);
+  font-weight: 400;
+  font-family: var(--barlow-condensed);
+  line-height: 33.6px;
+  letter-spacing: var(--character-spacing-1);
+  margin-bottom: 8rem;
+}
+
+h5 > span {
+  color: var(--gray);
+  font-weight: 700;
+  margin-right: 1rem;
+}
+
+.crew-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* gap: 6rem; */
+}
+
+.crew-info-wrapper {
+  width: 60%;
+  /* margin-right: 2rem; */
+}
+
+.crew-info-wrapper .crew-info h4 {
+  font-size: var(--heading-4);
+  font-family: var(--bellefair);
+  color: var(--cream);
+  font-weight: 400;
+  line-height: 36.67px;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.crew-info-wrapper .crew-info h3 {
+  font-size: var(--heading-3);
+  color: var(--cream);
+  font-weight: 400;
+  line-height: 64.18px;
+  font-family: var(--bellefair);
+  text-transform: uppercase;
+  width: 615px;
+  margin-bottom: 1rem;
+}
+
+.crew-info-wrapper .crew-info p {
+  color: var(--violet);
+  font-family: var(--barlow);
+  line-height: 32px;
+  width: 444px;
+  font-size: var(--paragraph);
+  /* margin-bottom: 2rem; */
+}
+
+.crew-navigation {
+  display: flex;
+  height: 15px;
+  justify-content: space-between;
+  /* margin: 88px 0 0 2px; */
+  margin-top: 5rem;
+  /* position: absolute; */
+  /* bottom: ; */
+  width: 132px;
+}
+
+.crew-navigation > a {
+  background: var(--cream);
+  mix-blend-mode: normal;
+  opacity: 0.17;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 15px;
+  transition: all 0.5s ease-in-out;
+  width: 15px;
+}
+
+.crew-navigation > a > div {
+  height: 100%;
+  width: 100%;
+}
+
+.crew-navigation > a.selected {
+  background: var(--cream);
+  opacity: 1;
+  /* norder-bottom:0px; */
+}
+
+.crew-navigation a:hover {
+  background: var(--cream);
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.crew-image-wrapper > .crew-image {
+  width: 40%;
+  height: ;
+}
+
+.crew-image-wrapper > .crew-image > img {
+  height: 712px;
+  /* position: absolute; */
+  left: 734.93px;
+  top: 198px;
+
+  margin-top: -3.8rem;
+  z-index: 9;
+  height: auto;
 }
