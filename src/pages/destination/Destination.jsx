@@ -28,7 +28,7 @@ export default function Destination() {
           {planets.map((val, idx) => (
             <>
               {val.tabNumber === tabNumber && (
-                <div className="destination-left">
+                <div className="destination-left" key={val.id}>
                   <div className="left-title">
                     <h5>
                       <span>01</span> Pick Your Destination
