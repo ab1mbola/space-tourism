@@ -19,7 +19,7 @@
   z-index: 1;
 }
 
-.navbar > div > .logo {
+.navbar > div > img {
   margin: 2rem;
   width: 50%;
 }
