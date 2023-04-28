@@ -41,13 +41,16 @@ h5 > span {
 
 .crew-wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  margin: 0 auto;
+  padding: 0 0rem;
   /* gap: 6rem; */
 }
 
 .crew-info-wrapper {
-  width: 60%;
+  width: 100%;
+
   /* margin-right: 2rem; */
 }
 
@@ -68,7 +71,7 @@ h5 > span {
   line-height: 64.18px;
   font-family: var(--bellefair);
   text-transform: uppercase;
-  width: 615px;
+
   margin-bottom: 1rem;
 }
 
@@ -121,12 +124,11 @@ h5 > span {
 }
 
 .crew-image-wrapper > .crew-image {
-  width: 40%;
-  height: ;
+  max-width: 620px;
 }
 
 .crew-image-wrapper > .crew-image > img {
-  height: 712px;
+  height: 0px;
   /* position: absolute; */
   left: 734.93px;
   top: 198px;
@@ -134,4 +136,5 @@ h5 > span {
   margin-top: -3.8rem;
   z-index: 9;
   height: auto;
+  width: 100%;
 }
