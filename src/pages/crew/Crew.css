@@ -14,7 +14,7 @@
 
 .crew > div {
   /* margin: 10rem 0; */
-  margin-top: 11.4rem;
+  /* margin-top: 11.4rem; */
 }
 
 .crew-header {
@@ -46,10 +46,11 @@ h5 > span {
   margin: 0 auto;
   padding: 0 0rem;
   /* gap: 6rem; */
+  width: 1400px;
 }
 
 .crew-info-wrapper {
-  width: 100%;
+  width: 50%;
 
   /* margin-right: 2rem; */
 }
@@ -124,17 +125,39 @@ h5 > span {
 }
 
 .crew-image-wrapper > .crew-image {
-  max-width: 620px;
+  width: 50%;
 }
 
-.crew-image-wrapper > .crew-image > img {
-  height: 0px;
-  /* position: absolute; */
-  left: 734.93px;
-  top: 198px;
+.crew-image-wrapper {
+  position: relative;
+  height: 100vh;
+}
 
-  margin-top: -3.8rem;
+/* .crew-image-wrapper > .crew-image > img {
+  position: absolute;
+  left: 0;
+  top: 0;
+
   z-index: 9;
-  height: auto;
+
   width: 100%;
+  height: 100px;
+  background: red;
+} */
+
+/* .crew-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+} */
+
+.crew-info-wrapper {
+  margin-top: 11rem;
+}
+
+.crew-image img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
