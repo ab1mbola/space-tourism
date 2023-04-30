@@ -15,22 +15,22 @@ export default function Navbar() {
       <div className={classes["nav-items"]}>
         <ul className={classes["primary-navigation"]}>
           <li>
-            <NavLink to="/">
+            <NavLink to="/" activeClassName={classes.active}>
               <span>00</span>Home
             </NavLink>
           </li>
           <li>
-            <NavLink to="destination">
+            <NavLink to="destination" activeClassName={classes.active}>
               <span>01</span>Destination
             </NavLink>
           </li>
           <li>
-            <NavLink to="/crew">
+            <NavLink to="/crew" activeClassName={classes.active}>
               <span>02</span>Crew
             </NavLink>
           </li>
           <li>
-            <NavLink to="/technology">
+            <NavLink to="/technology" activeClassName={classes.active}>
               <span>03</span>Technology
             </NavLink>
           </li>

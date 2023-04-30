@@ -85,7 +85,7 @@
   opacity: 9;
 }
 
-.destination-right .destination-nav a:active {
+.destination-right > .destination-nav > a.active {
   color: var(--cream);
   border-bottom: 5px solid;
   text-decoration: none;
