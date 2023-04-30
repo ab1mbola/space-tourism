@@ -7,18 +7,20 @@
   position: absolute;
   top: 0;
   right: 0;
-  height: 100vh;
+  min-height: 100vh;
   z-index: -1;
+  padding: 8rem 2rem 3rem;
 }
 
 .home-hero .home-hero-content {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 25rem;
-  margin-top: 10rem;
+  gap: 15rem;
+  width: 100%;
   max-width: 1200px;
   color: var(--cream);
+  margin-top: 4rem;
 }
 
 .home-hero-content .home-hero-left {
@@ -32,7 +34,7 @@
   letter-spacing: var(--character-spacing-1);
   font-weight: normal;
   color: var(--violet);
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .home-hero-left > h1 {
@@ -41,7 +43,7 @@
   font-size: var(--heading-1);
   color: var(--cream);
   font-weight: normal;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .home-hero-left > p {
@@ -49,7 +51,6 @@
   line-height: 32px;
   font-size: 18px;
   font-family: var(--barlow);
-  color: var(--violet);
 }
 
 .button-wrapper > a {
@@ -67,9 +68,99 @@
   line-height: 37px;
   transition: box-shadow 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
   width: 274px;
+  background-color: var(--cream);
+  color: var(--dark-blue);
 }
 
 .button-wrapper button:hover {
   box-shadow: 0 0 0 88px hsla(0, 0%, 100%, 0.1);
   cursor: pointer;
+}
+
+/* Tablet Responsive Design */
+@media (max-width: 1024px) {
+  .home-hero {
+    height: auto;
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    align-items: flex-start;
+  }
+
+  .home-hero .home-hero-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 8rem;
+    margin-top: 0;
+  }
+
+  .home-hero-content .home-hero-left {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .home-hero-left > h5 {
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+
+  .home-hero-left > h1 {
+    font-size: 120px;
+    margin-bottom: 1rem;
+  }
+
+  .home-hero-left > p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .button-wrapper > a > button {
+    height: 242px;
+    width: 242px;
+    font-size: 28px;
+  }
+
+  .button-wrapper button:hover {
+    box-shadow: 0 0 0 60px hsla(0, 0%, 100%, 0.1);
+  }
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 767px) {
+  .home-hero {
+    padding-top: 7rem;
+    padding-bottom: 4rem;
+  }
+
+  .home-hero .home-hero-content {
+    gap: 4rem;
+  }
+
+  .home-hero-content .home-hero-left {
+    max-width: 327px;
+  }
+
+  .home-hero-left > h5 {
+    font-size: 16px;
+    letter-spacing: 2.7px;
+  }
+
+  .home-hero-left > h1 {
+    font-size: 80px;
+  }
+
+  .home-hero-left > p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .button-wrapper > a > button {
+    height: 150px;
+    width: 150px;
+    font-size: 20px;
+    letter-spacing: 1.25px;
+  }
+
+  .button-wrapper button:hover {
+    box-shadow: 0 0 0 40px hsla(0, 0%, 100%, 0.1);
+  }
 }
