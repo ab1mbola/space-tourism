@@ -1,5 +1,5 @@
 .destination-hero {
-  background: url(../../assets/destination/background-destination-desktop.svg)
+  background: url("/assets/destination/background-destination-desktop.svg")
     fixed no-repeat center center/cover;
   display: flex;
   align-items: center;

@@ -60,12 +60,13 @@
 
 .navbar > .nav-items > ul > li > a:hover,
 .navbar > .nav-items > ul > li > a > span:hover {
-  border-bottom: 4px solid var(--gray);
-  transition: all 0.3s ease-in-out;
+  border-bottom: 3px solid var(--gray);
+  transition: all 0.08s ease-in-out;
 }
 
-.primary-navigation > ul > li.active {
-  border-bottom: 5px solid;
+.primary-navigation li:active,
+.primary-navigation li a:active {
+  border-bottom: 4px solid;
   text-decoration: none;
 }
 

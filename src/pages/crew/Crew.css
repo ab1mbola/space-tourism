@@ -1,5 +1,5 @@
 .crew {
-  background: url(../../assets/crew/background-crew-desktop.svg) fixed no-repeat
+  background: url("/assets/crew/background-crew-desktop.svg") fixed no-repeat
     center center/cover;
   display: flex;
   align-items: center;
@@ -31,6 +31,7 @@
   line-height: 33.6px;
   letter-spacing: var(--character-spacing-1);
   margin-bottom: 8rem;
+  text-transform: uppercase;
 }
 
 h5 > span {
@@ -46,7 +47,7 @@ h5 > span {
   margin: 0 auto;
   padding: 0 0rem;
   /* gap: 6rem; */
-  width: 1400px;
+  width: 1200px;
 }
 
 .crew-info-wrapper {
